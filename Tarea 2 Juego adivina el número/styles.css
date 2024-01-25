@@ -1,0 +1,51 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    font-family: 'Georgia', sans-serif;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-image: url('images/pexels-felix-mittermeier-956999.jpg');
+    color: black; 
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .form label {
+    color: white;
+  }
+  
+  .form input[type="number"] {
+    width: 200px;
+  }
+  
+  .lastResult {
+    color: black; 
+    padding: 3px;
+    text-align: center;
+  }
+  
+  .lastResult.correct {
+    background-color: green;
+  }
+  
+  .lastResult.incorrect {
+    background-color: red;
+  }
+  
+  .lowOrHi {
+    color: white;
+    background-color: blue;
+    text-align: center;
+  }
+  
